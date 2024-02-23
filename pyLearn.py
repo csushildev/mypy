@@ -45,7 +45,6 @@ def square_numbers(numbers):
     squares = []
     for num in numbers:
         squares.append(num ** 2)
-       # print(squares)
     return squares
 
 
@@ -66,5 +65,6 @@ print_inf(1,2,3)
 def print_info(**kwargs):
     for key, value in kwargs.items():
         print(f"{key}: {value}")
+
 
 print_info(name="John", age=25, city="New York")
