@@ -75,3 +75,27 @@ argparse: Parse command-line arguments.
 threading: Manage multiple threads for concurrent execution.
 multiprocessing: Leverage multiple CPU cores for parallel processing.
 os.path: Path manipulation utilities for working with file and directory paths.
+
+
+Important Data Structures : 
+# Sample Set
+fruits = {"apple", "banana", "orange"}
+# Sets are unordered collections of unique elements.
+# They are useful for removing duplicates and performing set operations like union, intersection, and difference.
+
+# Sample List
+numbers = [1, 2, 3, 4, 5]
+# Lists are ordered collections that can contain duplicate elements.
+# They are versatile and commonly used for storing and manipulating data.
+
+# Sample Dictionary
+student = {"name": "John", "age": 20, "grade": "A"}
+# Dictionaries are key-value pairs where each key is unique.
+# They are useful for storing and retrieving data based on a specific key, like a real-life dictionary.
+
+# Sample Tuple
+coordinates = (10, 20)
+# Tuples are ordered collections that can contain any type of data.
+# They are immutable, meaning their values cannot be changed once defined.
+# Tuples are useful for representing fixed collections of related values.
+
