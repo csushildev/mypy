@@ -10,3 +10,15 @@ str = "sushil"
 
 marks[1] = 95
 print(marks)
+
+#adding an element 1 at the start of the list, 2 at the end of the list and 3 at index 2
+marks.insert(0,1)
+marks.append(2)
+marks.insert(2,3)
+marks.insert(13,10)
+print(marks.__len__(),marks)
+
+#list comprehension
+
+table = [5*i for i in range(1,11)]
+print(table)
